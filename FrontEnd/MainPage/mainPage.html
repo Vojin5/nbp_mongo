@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./content.css">
+    <link rel="stylesheet" href="./createAd.css">
+    <link rel="stylesheet" href="./mainPage.css">
+    <title>Main Page</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="toolbar-container">
+            <button class="button-1" role="button" id="ads-container-button"> Advertisements </button>
+            <label id="usernameLabel"> Your name </label>
+            <button class="button-1" role="button" id="create-container-button"> Create Advertisement</button>
+        </div>
+        <div class="content-container enabled">
+
+        </div>
+        <div class="create-container disabled">
+            <div class="login-box">
+                
+                <h2> Osnovne informacije </h2>
+                
+                <form>
+                    <div class="user-box">
+                    <input type="text" name="" required="" id="create-brand-input">
+                    <label>Brand</label>
+                    </div>
+
+                    <div class="user-box">
+                    <input type="text" name="" required="" id="create-model-input">
+                    <label>Model</label>
+                    </div>
+                    
+                    <div class="user-box">
+                    <input type="number" name="" required="" id="create-godiste-input">
+                    <label>Godiste</label>
+                    </div>
+
+                    <div class="user-box">
+                    <input type="number" name="" required="" id="create-kilometraza-input">
+                    <label>Kilometraza</label>
+                    </div>
+
+                    <div class="user-box">
+                    <input type="text" name="" required="" id="create-gorivo-input">
+                    <label>Gorivo</label>
+                    </div>
+
+                    <div class="user-box">
+                    <input type="text" name="" required="" id="create-kubikaza-input">
+                    <label>Kubikaza</label>
+                    </div>
+
+                    
+                    <h2> Dodajte svojstva automobila </h2>
+                    
+                    <div class="user-box">
+                    <input type="text" name="" required="" id="create-svojstvo-input">
+                    <label>Svojstvo</label>
+                    </div>
+                    
+                    <div class="user-box">
+                    <input type="text" name="" required="" id="create-vrednost-input">
+                    <label>Vrednost svojstva</label>
+                    </div>
+                </form>
+                <br>
+                <button class="button-2" role="button" id="create-dodaj-button"> Dodaj svojstvo </button>
+                <br>
+                <br>
+                <div class="attributes-container">
+
+                </div>
+                <br>
+                
+                <div class="user-box long">
+                    <input type="number" name="" required="" id="create-cena-input">
+                    <label>Cena</label>
+                    </div>
+                <br>
+                <input style="display: none;" type="file" id="file-input" class="file-input">
+                <label id="avatarRegister" for="file-input" class="avatarButton">Dodaj sliku</label>
+                <br>
+                <button class="button-2" role="button" id="create-createAd-button"> Dodaj oglas </button>
+                <br>
+                <br>
+            </div>
+            
+        </div>
+        
+    </div>
+    <script src="./mainPage.js"></script>
+</body>
+</html>

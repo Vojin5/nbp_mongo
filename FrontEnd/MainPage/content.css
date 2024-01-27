@@ -1,0 +1,40 @@
+.content-container{
+    height: 86%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 20px;
+}
+
+.carCard{
+    border-radius: 12px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 20%;
+    height: fit-content;
+    aspect-ratio: 1;
+    box-sizing: border-box;
+    border: 1px solid whitesmoke;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),6px 6px 10px -1px rgba(255,255,255,0.7) ;
+}
+
+.carCard img{
+    width: 85%;
+    height: 50%;
+    box-sizing: border-box;
+    border: 1px solid whitesmoke;
+    box-shadow: 0px 0px 20px whitesmoke;
+    border-radius: 12px;
+}
+
+.cardLabel{
+    color: whitesmoke;
+    font-size: 25px;
+}

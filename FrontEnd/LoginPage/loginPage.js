@@ -32,8 +32,8 @@ loginButton.addEventListener("click", async () => {
         alert(await result.json());
     }
     else{
-        alert("logged in");
         localStorage.setItem("userid",await result.json());
-        //TODO : move to main page
+        localStorage.setItem("username",usernameInput.value);
+        window.location.href = "../MainPage/mainPage.html";
     }
 });
