@@ -1,6 +1,7 @@
 .content-container{
-    height: 86%;
+    height: 78%;
     width: 100%;
+    align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -10,6 +11,7 @@
 }
 
 .carCard{
+    transition: width 0.5s ease,height 0.5s ease;
     border-radius: 12px;
     justify-content: flex-start;
     align-items: center;
@@ -30,11 +32,87 @@
     height: 50%;
     box-sizing: border-box;
     border: 1px solid whitesmoke;
-    box-shadow: 0px 0px 20px whitesmoke;
+    box-shadow: 0px 0px 5px whitesmoke;
     border-radius: 12px;
 }
 
 .cardLabel{
     color: whitesmoke;
     font-size: 25px;
+}
+
+.cardLabel2{
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+.key-value{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+.button-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.carName-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+}
+
+.additional-container{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.expanded{
+    display: flex;
+}
+
+.hidden{
+    display: none;
+}
+
+.button-card{
+    background-color: #3098d4;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  width: min-content;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-bottom: 10px;
+}
+
+.button-card:hover,
+.button-card:focus {
+  background-color: #82acf0;
 }

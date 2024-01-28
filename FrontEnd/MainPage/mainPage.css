@@ -1,5 +1,6 @@
 html{
     height: 100%;
+    transition: all 1s 1s;
 }
 
 *{
@@ -31,6 +32,12 @@ html{
 label{
     color: whitesmoke;
     font-size: 25px;
+}
+
+.pages-container{
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
 }
 
 
@@ -72,4 +79,13 @@ label{
 
 .enabled{
     display: flex;
+}
+
+.filter-container{
+  height: 7%;
+  width: 100%;
+  flex-direction: row;
+  border: 1px solid whitesmoke;
+  align-items: center;
+  justify-content: space-around;
 }
